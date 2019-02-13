@@ -6,7 +6,7 @@ const Example = (props) => {
   return (
     <div>
       <Card>
-        <CardImg top src="\pics\fur1.jpg" alt="Card image cap" />
+        <CardImg top src="./pics/fur1.jpg" alt="Card image cap" />
         <CardBody>
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
