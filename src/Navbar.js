@@ -30,7 +30,7 @@ export default class Example extends React.Component {
         return (
             <div>
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/"> <img src="./pics/logo.png" style={{ width: 100, marginTop: -7 }} /> </NavbarBrand>
+                    <NavbarBrand href="/"> <img src="./pics/logo.PNG" style={{ width: 100, marginTop: -7 }} /> </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
@@ -38,7 +38,7 @@ export default class Example extends React.Component {
                                 <NavLink href="/">Sign In</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/"> <img src="./pics/cart.png" style={{ width: 30, marginTop: -7 }} /> </NavLink>
+                                <NavLink href="/"> <img src="./pics/cart.PNG" style={{ width: 30, marginTop: -7 }} /> </NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
