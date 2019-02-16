@@ -12,6 +12,7 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 export default class Example extends React.Component {
     constructor(props) {
@@ -38,12 +39,12 @@ export default class Example extends React.Component {
                                 <NavLink href="/">Cart</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="./SignIn.js">Sign In</NavLink>
+                                <NavLink href="/SignIn.js">Sign In</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>
-            </div>
+            </div >
         );
     }
 }

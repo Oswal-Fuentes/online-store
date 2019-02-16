@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ItemCard from './ItemCard';
 import Carousel from "./Carousel"
+import Navbar from "./Navbar"
 
 class Home extends Component {
     constructor() {
@@ -63,6 +64,7 @@ class Home extends Component {
         })
         return (
             <div>
+                <Navbar />
                 <Carousel />
                 <br />
                 <Container>
