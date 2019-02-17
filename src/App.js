@@ -17,8 +17,6 @@ class App extends Component {
     const { children } = this.props;
     return (
       <div className="App">
-        {/*}<Navbar />
-        <Home />{*/}
         <Content body={children} />
       </div>
     );
@@ -26,3 +24,4 @@ class App extends Component {
 }
 
 export default App;
+//<Link to={"/SignIn.js"}>FUCK</Link>
