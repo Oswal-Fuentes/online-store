@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import App from './App';
 import Home from './Home';
 import SignIn from './SignIn';
+import Cart from './Cart';
 import { HashRouter } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ const Routes = () =>
         <Switch>
             <Route exact path={"/Home.js"} component={Home} />
             <Route exact path={"/SignIn.js"} component={SignIn} />
+            <Route exact path={"/Cart.js"} component={Cart} />
             <Route exact path={"/"} component={Home} />
         </Switch>
     </App>;
