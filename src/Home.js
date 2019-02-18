@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import ItemCard from './ItemCard';
 import Carousel from "./Carousel"
 import Navbar from "./Navbar"
-
+import SearchField from 'react-search-field';
 
 class Home extends Component {
     constructor() {
@@ -79,6 +79,7 @@ class Home extends Component {
     }
 
     removeItem(id) {
+        alert("Thanks for your purchase!")
         this.setState({ item: this.state.item.filter(item => item.id !== id) });
     }
 
@@ -93,8 +94,12 @@ class Home extends Component {
         })
         return (
             <div>
-
                 <Navbar />
+                <br />
+                <SearchField
+                    placeholder='Search item'
+                />
+                <br /><br />
                 <Carousel />
                 <br />
                 <Container>

@@ -24,4 +24,8 @@ class ItemCard extends Component {
   }
 }
 
+function purchase(){
+  alert("Thanks for your purchase!")
+}
+
 export default ItemCard;
