@@ -11,37 +11,55 @@ class Home extends Component {
             item: [
                 {
                     id: 1,
-                    name: "Kitchen Set",
+                    name: "Kitchen Set 1",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 2,
-                    name: "Kitchen Set",
+                    name: "Kitchen Set 2",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 3,
-                    name: "Kitchen Set",
+                    name: "Kitchen Set 3",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 4,
-                    name: "Kitchen Set",
+                    name: "Kitchen Set 4",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 5,
-                    name: "Kitchen Set",
+                    name: "Kitchen Set 5",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 6,
-                    name: "Kitchen Set",
+                    name: "Kitchen Set 6",
+                    price: "$299.99",
+                    description: "Complete Kitchen Set"
+                },
+                {
+                    id: 7,
+                    name: "Kitchen Set 7",
+                    price: "$299.99",
+                    description: "Complete Kitchen Set"
+                },
+                {
+                    id: 8,
+                    name: "Kitchen Set 8",
+                    price: "$299.99",
+                    description: "Complete Kitchen Set"
+                },
+                {
+                    id: 9,
+                    name: "Kitchen Set 9",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },

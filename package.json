@@ -4,12 +4,15 @@
   "private": true,
   "homepage": "http://Oswal-Fuentes.github.io/online-store",
   "dependencies": {
+    "@opuscapita/react-searchbar": "^1.1.0",
     "bootstrap": "^4.3.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5",
+    "react-search-box": "^2.0.1",
+    "react-search-field": "^1.0.0",
     "reactstrap": "^7.1.0",
     "redux": "^4.0.1"
   },
