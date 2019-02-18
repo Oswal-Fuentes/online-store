@@ -12,63 +12,63 @@ class Home extends Component {
             item: [
                 {
                     id: 1,
-                    pic: "/pics/fur1.JPG",
+                    pic: "./pics/fur1.JPG",
                     name: "Kitchen Set 1",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 2,
-                    pic: "/pics/fur2.PNG",
+                    pic: "./pics/fur2.PNG",
                     name: "Kitchen Set 2",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 3,
-                    pic: "/pics/fur3.jpg",
+                    pic: "./pics/fur3.jpg",
                     name: "Kitchen Set 3",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 4,
-                    pic: "/pics/fur4.jpg",
+                    pic: "./pics/fur4.jpg",
                     name: "Kitchen Set 4",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 5,
-                    pic: "/pics/fur5.jpg",
+                    pic: "./pics/fur5.jpg",
                     name: "Kitchen Set 5",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 6,
-                    pic: "/pics/fur6.jpg",
+                    pic: "./pics/fur6.jpg",
                     name: "Kitchen Set 6",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 7,
-                    pic: "/pics/fur7.jpg",
+                    pic: "./pics/fur7.jpg",
                     name: "Kitchen Set 7",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 8,
-                    pic: "/pics/fur8.jpg",
+                    pic: "./pics/fur8.jpg",
                     name: "Kitchen Set 8",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 9,
-                    pic: "/pics/fur9.jpg",
+                    pic: "./pics/fur9.jpg",
                     name: "Kitchen Set 9",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
