@@ -8,7 +8,7 @@ export default class SignIn extends React.Component {
     render() {
         return (
             <div>
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br />
                 <h1><Badge color="secondary" tag={Link} to="/">Kitchen Plaza</Badge></h1>
                 <br /><br />
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
