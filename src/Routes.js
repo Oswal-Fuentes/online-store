@@ -5,8 +5,6 @@ import Home from './Home';
 import SignIn from './SignIn';
 import Cart from './Cart';
 import SignUp from './SignUp';
-import { HashRouter } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 const Routes = () =>
     <App>
