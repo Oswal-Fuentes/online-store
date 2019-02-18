@@ -7,11 +7,11 @@ class ItemCard extends Component {
     super(props);
   }
   render () {
-    let { id, name, price, description } = this.props.item;
+    let { id, pic, name, price, description } = this.props.item;
     return (
       <div>
         <Card>
-          <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+          <CardImg top width="100%" src={pic} alt="Card image cap" />
           <CardBlock>
             <CardTitle>{name}</CardTitle>
             <CardSubtitle>{price}</CardSubtitle>

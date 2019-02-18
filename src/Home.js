@@ -4,6 +4,7 @@ import ItemCard from './ItemCard';
 import Carousel from "./Carousel"
 import Navbar from "./Navbar"
 
+
 class Home extends Component {
     constructor() {
         super();
@@ -11,59 +12,69 @@ class Home extends Component {
             item: [
                 {
                     id: 1,
+                    pic:"\pics\fur1.JPG",
                     name: "Kitchen Set 1",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 2,
+                    pic:"\pics\fur1.JPG",
                     name: "Kitchen Set 2",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 3,
+                    pic:"\pics\fur1.JPG",
                     name: "Kitchen Set 3",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 4,
+                    pic:"\pics\fur1.JPG",
                     name: "Kitchen Set 4",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 5,
+                    pic:"\pics\fur1.JPG",
                     name: "Kitchen Set 5",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 6,
+                    pic:"\pics\fur1.JPG",
                     name: "Kitchen Set 6",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 7,
+                    pic:"\pics\fur1.JPG",
                     name: "Kitchen Set 7",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 8,
+                    pic:"\pics\fur1.JPG",
                     name: "Kitchen Set 8",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
                 {
                     id: 9,
+                    pic:"\pics\fur1.JPG",
                     name: "Kitchen Set 9",
                     price: "$299.99",
                     description: "Complete Kitchen Set"
                 },
-            ]
+            ],
+            
         }
     }
 
@@ -82,14 +93,16 @@ class Home extends Component {
         })
         return (
             <div>
-                <Navbar />
-                <Carousel />
-                <br />
-                <Container>
-                    <Row>
-                        {items}
-                    </Row>
-                </Container>
+                
+                    <Navbar />
+                    <Carousel />
+                    <br />
+                    <Container>
+                        <Row>
+                            {items}
+                        </Row>
+                    </Container>
+               
             </div>
         )
     }
