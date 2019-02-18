@@ -31,15 +31,15 @@ export default class Example extends React.Component {
         return (
             <div>
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">Kitchen Plaza</NavbarBrand>
+                    <NavbarBrand tag={Link} to="/">Kitchen Plaza</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <Link to={"/Cart.js"}>Cart &nbsp;</Link>
+                                <NavLink tag={Link} to="./Cart.js">Cart</NavLink>
                             </NavItem>
                             <NavItem>
-                                <Link to={"/SignIn.js"}>Sign In</Link>
+                                <NavLink tag={Link} to="./SignIn.js">Sign In</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
