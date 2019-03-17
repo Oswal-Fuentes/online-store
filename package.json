@@ -6,6 +6,7 @@
   "dependencies": {
     "@opuscapita/react-searchbar": "^1.1.0",
     "bootstrap": "^4.3.0",
+    "firebase": "^5.9.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-redux": "^6.0.0",
@@ -14,6 +15,7 @@
     "react-search-box": "^2.0.1",
     "react-search-field": "^1.0.0",
     "reactstrap": "^7.1.0",
+    "recompose": "^0.30.0",
     "redux": "^4.0.1"
   },
   "scripts": {
